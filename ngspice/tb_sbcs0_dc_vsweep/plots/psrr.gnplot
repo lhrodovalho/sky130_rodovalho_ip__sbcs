@@ -1,0 +1,17 @@
+set xlabel 'VDD (V)'
+set ylabel 'PSRR (dB)'
+set xrange [1.0:3.6]
+set yrange [0:80] 
+set grid
+set key off
+set term png
+set output 'psrr.png'
+set datafile separator ','
+plot \
+'../data/tb_sbcs0_dc_vsweep_psrr.csv0' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv1' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv2' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv3' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv4' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv5' using ($1):($2*1) with lines lt rgb 'blue',\
+'../data/tb_sbcs0_dc_vsweep_psrr.csv6' using ($1):($2*1) with lines lt rgb 'blue',\

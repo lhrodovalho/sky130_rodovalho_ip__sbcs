@@ -1,0 +1,56 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * num: 4 corner: ff vdd: 3.3 temp: 25
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 261
+io3p3               =  2.239218e-05
+psrr3p3             =  5.882181e+01
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+io3p3 = 2.239218e-05
+binary raw file "./out/sp4.raw"
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+
+Total analysis time (seconds) = 2.957
+
+Total elapsed time (seconds) = 6.215 
+
+Total DRAM available = 7841.883 MB.
+DRAM currently available =  180.320 MB.
+Maximum ngspice program size =  442.129 MB.
+Current ngspice program size =  424.027 MB.
+
+Shared ngspice pages =   10.934 MB.
+Text (code) pages =    5.461 MB.
+Stack = 0 bytes.
+Library pages =  421.684 MB.
+

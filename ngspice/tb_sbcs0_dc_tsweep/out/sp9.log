@@ -1,0 +1,134 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * num: 9 corner: ss vdd: 3.6 temp: 25
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Warning: Further gmin increment
+Trying gmin =   5.6234E-06 Note: One successful gmin step
+Trying gmin =   2.3714E-06 Note: One successful gmin step
+Trying gmin =   6.4938E-07 Note: One successful gmin step
+Trying gmin =   9.3057E-08 Note: One successful gmin step
+Trying gmin =   9.3057E-09 Note: One successful gmin step
+Trying gmin =   9.3057E-10 Note: One successful gmin step
+Trying gmin =   9.3057E-11 Note: One successful gmin step
+Trying gmin =   9.3057E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: Dynamic gmin stepping completed
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+
+No. of Data Rows : 37
+io25                =  2.265837e-05
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+imax = 3.039123e-05
+imin = 1.680751e-05
+i_avg = 2.359937e-05
+ppm = 3.197761e+03
+binary raw file "./out/sp9.raw"
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+
+Total analysis time (seconds) = 1.765
+
+Total elapsed time (seconds) = 5.275 
+
+Total DRAM available = 7841.883 MB.
+DRAM currently available =  435.637 MB.
+Maximum ngspice program size =  442.129 MB.
+Current ngspice program size =  423.977 MB.
+
+Shared ngspice pages =   10.875 MB.
+Text (code) pages =    5.461 MB.
+Stack = 0 bytes.
+Library pages =  421.684 MB.
+

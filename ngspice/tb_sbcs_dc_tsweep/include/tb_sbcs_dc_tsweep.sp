@@ -1,0 +1,56 @@
+* num: #num corner: #corner vdd: #vdd temp: #temp
+
+* Include SkyWater sky130 device models
+.lib /usr/local/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice #corner
+.temp #temp
+
+.include ../../netlists/sbcs.spice
+
+* Simulation parameters
+.param xavdd  = #vdd
+.param xavss  = 0
+
+.param xavdd_ac = 1
+.param xen      =  1
+.param xvsource = 0
+
+* Voltage supplies
+v_avdd avdd avss dc {xavdd} ac {xavdd_ac} 
+v_avss 0    avss xavss
+v_en  en  avss dc {xavdd*xen} pulse(0 {xavdd} 100n 10n 10n) 
+v_enb enb avss dc {xavdd*(1-xen)} pulse({xavdd} 0 100n 10n 10n) 
+v_isource isource avss {xvsource} 
+
+* Design Under Test
+Xdut isource avss en enb avdd avss avss sbcs
+
+* Simulation control
+.option rshunt = 1e12
+.control
+  dc temp 125 -55 -5
+  let io = i(v_isource)
+  meas dc io25 find io at=25
+  let ioN = io/io25
+  plot ioN
+  let i = 1
+  let imax = io[0]
+  let imin = io[0]
+  dowhile i < length(io)
+    let imax = max(imax,io[i])
+    let imin = min(imin,io[i])
+    let i = i+1
+  end
+  let di    = (imax-imin)
+  let dt    = 125+55
+  let didt  = di/dt
+  let i_avg = (imax+imin)/2
+  let ppm   = didt/i_avg*1e6
+  print imax imin i_avg ppm
+  echo "num,corner,vdd,i25,imax,imin,ppm" > ./meas/tb_sbcs_dc_tsweep.meas#num
+  echo "#num,#corner,#vdd,$&io25,$&imax,$&imin,$&ppm" >> ./meas/tb_sbcs_dc_tsweep.meas#num
+
+  wrdata ./data/tb_sbcs_dc_tsweep_io.dat#num io
+
+.endc
+
+.end 

@@ -1,0 +1,21 @@
+set xlabel 'Temperature (°C)'
+set ylabel 'Current (uA)'
+set xrange [-55:125]
+set yrange [20:24]
+set grid
+set key off
+set term png
+set output 'io.png'
+set datafile separator ','
+plot \
+'../data/tb_sbcs_dc_tsweep_io.csv0' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv1' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv2' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv3' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv4' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv5' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv6' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv7' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv8' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv9' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_tsweep_io.csv10' using ($1):($2*1e6) with lines lt rgb 'blue',\

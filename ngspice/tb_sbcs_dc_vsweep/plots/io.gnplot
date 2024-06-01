@@ -1,0 +1,15 @@
+set xlabel 'VDD (V)'
+set ylabel 'Current (uA)'
+set xrange [1.0:3.6]
+set yrange [18:28]
+set grid
+set key off
+set term png
+set output 'io.png'
+set datafile separator ','
+plot \
+'../data/tb_sbcs_dc_vsweep_io.csv0' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_vsweep_io.csv1' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_vsweep_io.csv2' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_vsweep_io.csv3' using ($1):($2*1e6) with lines lt rgb 'blue',\
+'../data/tb_sbcs_dc_vsweep_io.csv4' using ($1):($2*1e6) with lines lt rgb 'blue',\

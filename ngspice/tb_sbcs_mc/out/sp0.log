@@ -1,0 +1,51 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * num: 0 corner: tt vdd: 3.3 temp: 25
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit * num: 0 corner: tt vdd: 3.3 temp: 25
+
+Circuit: * num: 0 corner: tt vdd: 3.3 temp: 25
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+Note: v_enb: dc value used for op instead of transient time=0 value.
+Note: v_en: dc value used for op instead of transient time=0 value.
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Warning: Further gmin increment
+Trying gmin =   5.6234E-06 Note: One successful gmin step
+Trying gmin =   2.3714E-06 Note: One successful gmin step
+Trying gmin =   6.4938E-07 Note: One successful gmin step
+Trying gmin =   9.3057E-08 Note: One successful gmin step
+Trying gmin =   9.3057E-09 Warning: Further gmin increment
+Trying gmin =   5.2330E-08 Note: One successful gmin step
+Trying gmin =   2.2067E-08 Note: One successful gmin step
+Trying gmin =   6.0430E-09 Note: One successful gmin step
+Trying gmin =   8.6596E-10 Note: One successful gmin step
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   8.6596E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+io = 1.919288e-05
+Reset re-loads circuit * num: 0 corner: tt vdd: 3.3 temp: 25
+
+Circuit: * num: 0 corner: tt vdd: 3.3 temp: 25
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
